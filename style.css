@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    overflow-y: hidden;
+    font-size: larger;
+}
+.board{
+    background-image: url('bground.jpg');
+    display: flex;
+    justify-self: center;
+}
+.score{
+    position: absolute;
+    font-size: ;
+    left: 35%;
+}
+.start{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    align-self: center;
+    left:45%;
+    top:45%;
+    padding:10px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(0,0, 0, 0.2);
+    border-radius: 5px;
+}
+.start span{
+    font-size: 1rem;
+    padding-top: 2px;
+    padding-left: 20px;
+}
+@media (min-width:600px) {
+    .score{
+        left:20%;
+    }
+}
